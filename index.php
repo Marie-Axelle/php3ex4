@@ -8,9 +8,9 @@
     <?php
     $count=1;
 
-    while ($count <= 10) {
+    while ($count < 10) {
       # code...
-      echo $count++ / $count ;
+      echo ($count+= $count/2) . '<br/>';
     }
 
      ?>
